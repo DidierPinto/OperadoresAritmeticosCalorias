@@ -123,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="IMC"
+                    android:text="Energia Termica"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -131,8 +131,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Utilizaremos operadores
-                    para calcular el IMC de una persona"
+                    android:text="La energía térmica tiene como
+                    beneficio principal la
+                    creación de electricidad"
                     android:textSize="18sp" />
 
             </TableRow>
