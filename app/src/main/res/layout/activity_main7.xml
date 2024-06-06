@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="272dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESA LOS DATOS PARA CALCULAR CALORIAS QUEMADAS"
+            android:textAlignment="center"
+            android:textColor="#F40909"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su peso"
+            android:inputType="numberDecimal"
+            android:textColor="#DD0606"
+            android:textColorHighlight="#EC0505"
+            android:textColorHint="#EF0A0A"
+            android:textColorLink="#E80909" />
+
+        <EditText
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese tiempo de ejercicio"
+            android:inputType="numberDecimal"
+            android:textColor="#DD0606"
+            android:textColorHighlight="#EC0505"
+            android:textColorHint="#EF0A0A"
+            android:textColorLink="#E80909" />
+
+        <EditText
+            android:id="@+id/texto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MET"
+            android:inputType="numberDecimal"
+            android:textColor="#DD0606"
+            android:textColorHighlight="#EC0505"
+            android:textColorHint="#EF0A0A"
+            android:textColorLink="#E80909" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="#EF0909"
+            android:textColorHint="#F40808"
+            android:textColorLink="#E30B0B"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:backgroundTintMode="add"
+            android:text="Enviar"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:text="Regresar" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

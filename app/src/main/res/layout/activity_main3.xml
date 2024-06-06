@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="272dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESA DOS NUMEROS PARA MULTIPLICAR"
+            android:textAlignment="center"
+            android:textColor="#F40909"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/datos1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el primer número"
+            android:inputType="numberDecimal"
+            android:textColor="#CF0A0A"
+            android:textColorHighlight="#D60808"
+            android:textColorHint="#E81010" />
+
+        <EditText
+            android:id="@+id/datos2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el segundo número"
+            android:inputType="numberDecimal"
+            android:textColor="#DD0606"
+            android:textColorHighlight="#EC0505"
+            android:textColorHint="#EF0A0A"
+            android:textColorLink="#E80909" />
+
+        <Button
+            android:id="@+id/res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:backgroundTintMode="add"
+            android:text="Enviar"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/resul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="#EF0909"
+            android:textColorHint="#F40808"
+            android:textColorLink="#E30B0B"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="Regresar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
